@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/*body {
+  font-family: 'Dosis', sans-serif;
+}*/
+#container {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #1C2833;
+  padding: 8px;
+  margin-top: 24px;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.num {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.btn-calc {
+  margin: 2px;
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+/*#text-input {
+  display: flex;
+  width: 97.5%;
+  height: 25px;
+  justify-content: center;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+*/
+
+#resultado {
+  width: 98.5%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  background-color: white;
+  font-size: 20px;
+  font-style: normal;
+}

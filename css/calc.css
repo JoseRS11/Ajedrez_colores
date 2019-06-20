@@ -1,0 +1,65 @@
+* {
+	background-color: ;
+}
+
+.container
+{
+	width: 400px;
+	margin-top: 100px;
+}
+
+
+.cuadro
+{
+
+	width: 10px;
+	height: 70px;
+	border: 1px solid #B9B9B9;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+
+}
+
+.resultados
+{
+
+	width: 10px;
+	height: 100px;
+	background-color: #000000;
+	
+}
+
+.AC
+{
+	background-color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+	color: #FFA200;cursor: pointer;
+	
+}
+
+.igual
+{
+		background-color: #FFA200;
+    text-align: center;
+    font-size: 40px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.cuadro:hover
+{
+  background-color:#FFE7A5;
+}
+
+.igual:hover
+{
+  background-color:#FFE7A5;
+}
+
+.AC:hover
+{
+  background-color:#FFE7A5;
+}
