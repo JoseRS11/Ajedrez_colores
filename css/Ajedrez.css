@@ -1,0 +1,59 @@
+body{
+	background-color: #5D5D5D;
+	background-attachment: fixed;
+}
+
+.container{
+	width: 504px;
+	height: 504px;
+ 	margin-right: auto;
+  	margin-left: auto;
+  	background-color: #1C2833;
+ 	margin-top: 30px;
+}
+
+.negro{
+	width: 63px;
+	height: 63px;
+	background-color: black;
+	float: left;
+}
+
+.blanco{
+	width: 63px;
+	height: 63px;
+	background-color: white;
+	float: left;
+}
+
+.botonera {
+	width: 451px;
+	height: 47px;
+	background-color: #323232;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+	/*max-width: 500px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-color: #FF5454;
+  	padding: 8px;
+  	margin-top: 24px;*/
+}
+
+.boton {
+	/*width: 70px;
+	height: 63px;
+	background-color: #373737;
+	float: left;*/
+	display: flex;
+  	flex: 1;
+  	justify-content: center;
+  	align-items: center;
+  	height: 40px;
+  	margin: 2px;
+  	background-color: white;
+  	border: 5px solid transparent;
+  	float: left;
+  	cursor: pointer;
+}
